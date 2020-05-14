@@ -1,0 +1,22 @@
+INSTALLED_APPS = [
+    "modeltranslation",
+    "grappelli",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "corsheaders",
+    "drf_yasg",
+    "rest_framework",
+    "rest_framework.authtoken",
+    "django_filters",
+    "versatileimagefield",
+    "adminsortable2",
+    "inline_actions",
+    "watchman",
+    "phonenumber_field",
+    "apps.accounts",
+    # Put admin last in the list in case we have customized templates in our apps.
+    "django.contrib.admin",
+]

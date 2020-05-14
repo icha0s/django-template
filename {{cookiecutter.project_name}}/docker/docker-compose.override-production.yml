@@ -1,0 +1,36 @@
+version: "3.6"
+services:
+  db:
+    networks:
+      internal:
+        ipv4_address: 10.190.10.11
+
+  app:
+    networks:
+      internal:
+        ipv4_address: 10.190.10.12
+
+  redis:
+    networks:
+      internal:
+        ipv4_address: 10.190.10.13
+
+  nginx:
+    networks:
+      internal:
+        ipv4_address: 10.190.10.10
+
+networks:
+  internal:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.190.10.0/24
+
+  external:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.191.10.0/24

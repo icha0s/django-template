@@ -1,0 +1,6 @@
+SECRET_KEY=<>
+DJANGO_SETTINGS_MODULE=apps.settings.dev
+DATABASE_URL=postgres://postgres@localhost:5432/django?conn_max_age=3600
+SENTRY_DNS=< SENTRY DNS >
+SENTRY_ENV=development
+CORS_ORIGIN_WHITELIST=''
