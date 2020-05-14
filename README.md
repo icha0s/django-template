@@ -30,5 +30,5 @@ pip install cookiecutter
 Then, create a project itself:
 
 ```bash
-cookiecutter gh:onufrienkovi/django-template
+cookiecutter gh:fitelio/django-template
 ```
