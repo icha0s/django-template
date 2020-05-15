@@ -12,9 +12,9 @@ check-env-%:
 
 app: migrate gunicorn
 
-.PHONY: unicorn
-unicorn:
-	pipenv run unicorn \
+.PHONY: uvicorn
+uvicorn:
+	pipenv run uvicorn \
 		--access-logfile - \
 		--bind 0.0.0.0:8000 \
 		--backlog 100 \

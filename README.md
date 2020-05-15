@@ -30,5 +30,5 @@ pip install cookiecutter
 Then, create a project itself:
 
 ```bash
-cookiecutter gh:fitelio/django-template
+cookiecutter gl:fitelio/templates/backend/django-template
 ```
