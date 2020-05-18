@@ -23,7 +23,7 @@ urlpatterns = [
     path("management/", admin.site.urls),
     path("health/", include("watchman.urls")),
     path("api/", include("api.urls")),
-    path("", include('web.urls', namespace='web')),
+    path("", include('web.urls')),
 ]
 
 if "rosetta" in settings.INSTALLED_APPS:
