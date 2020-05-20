@@ -16,7 +16,7 @@ INSTALLED_APPS = [
     "inline_actions",
     "watchman",
     "phonenumber_field",
-    "apps.account",
+    "apps.accounts",
     # Put admin last in the list in case we have customized templates in our apps.
     "django.contrib.admin",
 ]
