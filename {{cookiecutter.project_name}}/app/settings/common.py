@@ -31,6 +31,7 @@ from .inc_other.drf import *  # noqa
 from .inc_other.modeltranslation import *  # noqa
 from .inc_other.rosetta import *  # noqa
 from .inc_other.sentry import *  # noqa
+from .inc_other.structlog import *  # noqa
 from .inc_other.swagger import *  # noqa
 from .inc_other.versatile_image import *  # noqa
 from .inc_other.watchman import *  # noqa
