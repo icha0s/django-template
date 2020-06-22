@@ -44,3 +44,7 @@ test:
 
 test-cov:
 	sh scripts/test-cov.sh
+
+
+codecov:
+	sh scripts/codecov.sh

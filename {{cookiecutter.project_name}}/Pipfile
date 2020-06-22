@@ -6,9 +6,9 @@ verify_ssl = true
 [dev-packages]
 jinja2 = "*"
 black = "==19.10b0"
+parameterized = "*"
 pytest = "*"
 coverage = "*"
-isort = "*"
 vulture = "*"
 wemake-python-styleguide = "*"
 autoflake = "*"
@@ -18,6 +18,11 @@ sphinx-glpi-theme = "*"
 sphinx = "*"
 django-rosetta = "*"
 django-debug-toolbar = "*"
+pytest-pythonpath = "*"
+freezegun = "*"
+rinohtype = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [packages]
 django = "*"

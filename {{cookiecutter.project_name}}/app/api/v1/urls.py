@@ -7,7 +7,7 @@ from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
 
 schema_view = get_schema_view(
-    openapi.Info(title="Food Menu API", default_version="v1", description="Routes of S1 Rent project"),
+    openapi.Info(title="{{cookiecutter.project_name}} API", default_version="v1", description="Routes of {{cookiecutter.project_name}} project"),
     public=False,
     permission_classes=(permissions.AllowAny,),
 )
