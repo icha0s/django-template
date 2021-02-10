@@ -3,10 +3,9 @@
 REST_FRAMEWORK = {
     "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
     "DEFAULT_AUTHENTICATION_CLASSES": (
-        # "rest_framework_simplejwt.authentication.JWTAuthentication",
-        # "apps.core.authentication.JWTAuthentication",
-        # 'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        "rest_framework.authentication.TokenAuthentication",
         "rest_framework.authentication.SessionAuthentication",
+        # "apps.account.authentication.JWTAuthentication",
         "rest_framework.authentication.BasicAuthentication",
     ),
     "DEFAULT_FILTER_BACKENDS": (

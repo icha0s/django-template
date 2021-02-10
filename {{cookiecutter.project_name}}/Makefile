@@ -24,6 +24,12 @@ createsuperuser:
 collectstatic:
 	$(MANAGE) collectstatic
 
+makemessages:
+	$(MANAGE) makemessages -l en -l uk -l ru
+
+compilemessages:
+	$(MANAGE) compilemessages -l en -l uk -l ru
+
 req:
 	pipenv sync
 
